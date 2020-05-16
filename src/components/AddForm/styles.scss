@@ -1,0 +1,43 @@
+$primary: #f4e04d;
+$secondary: #f2ed6f;
+$bg: #cee397;
+$bg2: #8db1ab;
+$black: #454545;
+$white: #eeeeee;
+
+.add-form {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+
+  input {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    background-color: rgba($secondary, 0.2);
+    border: 2px solid $secondary;
+
+    &:focus {
+      outline: 0;
+      border: 2px solid $primary;
+    }
+  }
+  button {
+    margin: auto 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid $bg2;
+    background-color: $bg2;
+    color: $secondary;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $secondary;
+      color: $bg2;
+      transition: 0.2s;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+}

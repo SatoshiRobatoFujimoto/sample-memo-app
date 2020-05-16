@@ -1,0 +1,18 @@
+$primary: #f4e04d;
+$secondary: #f2ed6f;
+$bg: #cee397;
+$bg2: #8db1ab;
+$black: #454545;
+$white: #eeeeee;
+
+.header {
+  padding: .5rem;
+  background-color: $bg2;
+  
+  span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px 0.5rem;
+    color: $primary;
+  }
+}
